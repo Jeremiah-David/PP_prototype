@@ -1,0 +1,66 @@
+:root {
+  --brand-blue: #5ab7e8;
+  --brand-dark-blue: #064281;
+  --brand-light-blue: #e3f2fd;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  margin: 0px;
+}
+
+/* background: rgb(90, 183, 232);
+background: linear-gradient(
+  207deg,
+  rgba(90, 183, 232, 1) 0%,
+  rgba(255, 255, 255, 0) 100%
+); */
+#brand {
+  width: 50%;
+  height: 50%;
+}
+#hero-section {
+  background-image: url("assests/PP_kids_main.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  height: 100svh;
+  height: 100dvh;
+  /* padding: 10px 0; */
+}
+
+#hero_text_container {
+  background: #e3f2fd;
+  position: absolute;
+  right: 0px;
+  color: var(--brand-dark-blue);
+  display: inline;
+  padding: 5px 10px 5px 5px;
+  /* margin-right: 0px; */
+  /* width: 50%; */
+  margin-top: 40vh;
+  opacity: 0.9;
+  border-radius: 20px 0 0 20px;
+  /* font-size: clamp(16px 1vw 78px) !important; */
+  /* padding: 1% 0px; */
+}
+
+.mission_text {
+  display: inline-block;
+  /* width: 70%; */
+  margin: auto;
+  color: var(--brand-dark-blue);
+}
+
+#mission_img {
+  background-image: url("assests/childrentwo.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 100vw; */
+  height: 80vh;
+  margin: 0 auto;
+}
