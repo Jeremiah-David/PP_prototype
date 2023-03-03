@@ -23,10 +23,12 @@ background: linear-gradient(
 
 .hero-section {
   background-color: white;
-  padding: 50px 0;
-  min-height: 90vh;
+  padding: 50px 0 0 0;
+  min-height: 100vh;
+  min-height: 100svh;
   max-width: 100vw;
   margin-top: 30vw;
+  display: flex;
 }
 
 .hero-container {
@@ -34,19 +36,19 @@ background: linear-gradient(
 }
 
 .hero-section h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: bold;
   margin-bottom: 30px;
 }
 
 .hero-section h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
 .hero-section p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-bottom: 30px;
 }
 
@@ -56,6 +58,7 @@ background: linear-gradient(
   max-width: 100%;
 }
 .mission_text {
+  position: relative;
   display: inline-block;
   /* width: 70%; */
   margin: auto;
@@ -64,11 +67,77 @@ background: linear-gradient(
 
 #mission_img {
   background-image: url("assests/childrentwo.png");
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   /* width: 100vw; */
   height: 80vh;
   margin: 0 auto;
+}
+
+/*  */
+
+#sidebardiv {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  /* width: 300px; */
+}
+
+.myButton {
+  box-shadow: 0px 1px 0px 0px #f0f7fa;
+  background: linear-gradient(to bottom, #5ab6e8 5%, #064181 100%);
+  background-color: #5ab6e8;
+  border-radius: 24px;
+  border: 2px solid #064181;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px 24px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #5b6178;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #064181 5%, #5ab6e8 100%);
+  background-color: #064181;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.offcanvas {
+  color: var(--brand-dark-blue);
+  font-family: Roboto Slab;
+}
+
+.nav-item a {
+  color: var(--brand-dark-blue);
+  font-family: Roboto Slab;
+}
+
+.hero-section-bottom-nav-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-section-bottom-nav {
+  margin-top: 5%;
+  background-color: white;
+  width: 95%;
+  border-radius: 20px 20px 20px 20px;
+  border: 1px solid black;
+  display: flex;
+}
+
+.hero-section-bottom-nav {
+  padding: 5px;
+}
+
+.hero-section-bottom-nav a {
+  text-decoration: none;
 }
