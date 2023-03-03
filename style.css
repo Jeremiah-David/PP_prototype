@@ -110,7 +110,6 @@ background: linear-gradient(
   margin-top: 5%;
   background-color: white;
   width: 95%;
-  /* border-radius: 20px 20px 20px 20px; */
   border-top: 1px solid var(--brand-dark-blue);
   border-bottom: 1px solid var(--brand-dark-blue);
   display: flex;
@@ -200,7 +199,7 @@ background: linear-gradient(
 
 .blue-services-background {
   background-color: var(--brand-light-blue);
-  position: absolute;
+  position: relative;
   left: 0;
   width: 90vw;
   box-shadow: 10px 9px 5px 0px rgba(92, 92, 92, 0.75);
@@ -208,4 +207,58 @@ background: linear-gradient(
   -moz-box-shadow: 10px 9px 5px 0px rgba(92, 92, 92, 0.75);
   z-index: 0;
   border-radius: 0 20px 20px 0;
+}
+
+.service-header {
+  background-image: url("./assests/pexels-alexander-grey-1148998.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  /* width: 50vw; */
+}
+
+.services-main {
+  position: relative;
+  height: 100vh;
+}
+
+.services-main-text {
+  width: clamp(300px, 70vw, 2000px);
+}
+
+.article-banner {
+  background-image: url("./assests/pexels-trinity-kubassek-242148.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20vh;
+  width: clamp(300px, 70vw, 2000px);
+}
+
+.service-sidebar-button-container {
+  position: relative;
+  height: 100vh;
+  font-size: xx-large;
+}
+
+@media only screen and (max-width: 600px) {
+  .service-sidebar-button {
+    display: none;
+  }
+}
+
+.service-sidebar-button {
+  position: fixed;
+  right: 20px;
+  bottom: 35vh;
+  font-size: xx-large;
+}
+
+.service-sidebar-button:active {
+  position: fixed;
+  right: 20px;
+  bottom: 35vh;
 }
