@@ -262,3 +262,14 @@ background: linear-gradient(
   right: 20px;
   bottom: 35vh;
 }
+
+@media only screen and (max-width: 600px) {
+  .article-banner {
+    background-attachment: local;
+  }
+
+  .blue-services-background {
+    position: static;
+    margin: 0 auto;
+  }
+}
